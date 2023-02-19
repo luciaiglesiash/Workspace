@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+</html>
+  <head>
+  </head>
+  <body>
+    <title>index.js</title>
+    <style type="text/css">
+* {box-sizing: border-box;
+}
+
+form {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #4b4b4b;
+}
+
+form {
+  background-color: #2f3644;
+  color: white;
+  perspective: 0px;
+  transform-origin: 8px 50% 0px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  font-size: smaller;
+}
+
+div {
+  border-width: thin;
+  border-style: double;
+  border-radius: 0px;
+}
+
+form input[type="text"], form input[type="email"] {
+  width: 250px;
+  padding: 7px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0px;
+  display: inline-block;
+}
+
+div {
+  border-width: thin;
+  border-style: double;
+  border-radius: 0px;
+}
+
+form input[type="password"], form input[type="clave"] {
+  width: 250px;
+  padding: 7px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: smaller;
+}
+
+h2 {
+  font-size: smaller;
+}
+
+span {
+  color: #b0bee7;
+}
+ 
+      form input[type="button"], form input[type="submit"] {
+  width: 250px;
+  padding: 8px 10px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: #6c63ff;
+  margin: 8px 0px;
+  display: inline-block;
+  font-family: Helvetica;
+  color:#f6f6f6
+}
+      
+
+</style> <fieldset>
+      <form>
+        <h1 style="text-align: center;"><span style="font-family: Helvetica,Arial,sans-serif;">Create
+            account</span></h1>
+        <h2 style="text-align: justify;"><span style="font-family: Helvetica,Arial,sans-serif;">Nombre</span></h2>
+        <input name="nombre" id="name" type="text"><br>
+        <h2 style="text-align: justify;"><span style="font-family: Helvetica,Arial,sans-serif;"
+
+            role="log">Email</span></h2>
+        <input name="e-correo" id="email" type="email">
+        <p style="text-align: center;"></p>
+        <h2 style="text-align: justify;"><span style="font-family: Helvetica,Arial,sans-serif;"
+
+            role="radio">Clave</span></h2>
+        <input name="clave" value="" id="clave" required="" pattern:^[a-za-z0-9=""
+
+          ]*$="" type="password">
+        <h2 style="text-align: justify;"><span style="font-family: Helvetica,Arial,sans-serif;">Confirme
+            su clave</span></h2>
+        <input name="confirme su clave" value="" id="confirme su clave" required=""
+
+          pattern:="" ^[a-za-z0-9="" ]*$="" type="password"> <br>
+        <p style="text-align: justify;"><input value="ENVIAR" id="validate" type="submit"></p>
+      </form>
+    </fieldset>
+   
+
